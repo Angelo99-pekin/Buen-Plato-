@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Comunícate con BUEN PLATO.">
+  <title>BUEN PLATO | Contacto</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="encabezado">
+    <a class="logo" href="index.html">BUEN<span>PLATO</span></a>
+    <nav class="navegacion">
+      <a href="index.html">Inicio</a><a href="menu.html">Menú</a>
+      <a href="nosotros.html">Nosotros</a><a class="activo" href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+  <main class="pagina">
+    <section class="titulo-pagina">
+      <p class="etiqueta">ESTAMOS PARA ATENDERTE</p>
+      <h1>Contáctanos</h1>
+      <p>Déjanos tus datos y un mensaje para poder registrate y estar en nustra lista de clientes y recibir un mensaje de los platillos que habra en prepacion en menus accesibles</p>
+    </section>
+    <section class="formulario-contenedor">
+      <form id="formularioContacto" class="formulario">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre">
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" placeholder="ejemplo@correo.com">
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" placeholder="Tu número de teléfono">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?"></textarea>
+        <button class="boton" type="submit">Enviar mensaje</button>
+        <p id="respuestaFormulario" class="respuesta" aria-live="polite"></p>
+      </form>
+      <aside class="datos-contacto">
+        <h2>Información</h2>
+        <p><strong>Horario:</strong> Por definir</p>
+        <p><strong>Ubicación:</strong> Por definir</p>
+        <p><strong>Correo:</strong> contacto@buenplato.com (ejemplo)</p>
+      </aside>
+    </section>
+  </main>
+  <footer class="pie"><p>© 2026 BUEN PLATO. Proyecto académico de Diseño Web.</p></footer>
+</body>
+</html>
